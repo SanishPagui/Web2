@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+}
+
+#land{
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+
+#nav{
+    align-items: center;
+    display: flex;
+    width: 100%;  
+    font-size: 30px;
+}
+
+.nav1{
+    width:100%;
+    text-align: right;
+}
+
+#text{
+    margin-top: 90px;
+    opacity: .5;
+}
+
+.mainheading{
+    width: 75%;
+    font-size: 70px;
+}
+
+.maintainance{
+    font-size: 70px;
+    padding-left: 30px;
+}
+
+.thanking{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#end1{
+    font-size: 30px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom:3%;
+    width: 100%;
+}
